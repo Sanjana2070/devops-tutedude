@@ -9,6 +9,7 @@ git checkout -b sanjana2070 </br>
 git add . </br>
 git commit -m "adding current project" </br>
 git push -u origin sanjana2070 </br>
+git checkout main </br>
 git merge sanjana2070 </br>
 git push origin main </br>
 
