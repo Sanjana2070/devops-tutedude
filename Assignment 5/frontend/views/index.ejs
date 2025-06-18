@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Names List</title>
+</head>
+<body>
+    <h1>Hello from the frontend!</h1>
+
+    <% if (Array.isArray(data)) { %>
+        <ul>
+            <% data.forEach(name => { %>
+                <li><%= name %></li>
+            <% }) %>
+        </ul>
+    <% } else { %>
+        <p>Unexpected data format</p>
+        <pre><%= JSON.stringify(data, null, 2) %></pre>
+    <% } %>
+</body>
+</html>

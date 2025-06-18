@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up / Update</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Welcome! 🐰</h2>
+
+    <!-- SIGNUP FORM -->
+    <form class="login-form" action="/signup" method="POST">
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Sign Up!</button>
+    </form>
+
+    <!-- UPDATE FORM -->
+    <form class="login-form" action="/update" method="POST" style="margin-top: 20px;">
+      <input type="email" name="email" placeholder="Email to update" required />
+      <input type="text" name="username" placeholder="New Username" />
+      <input type="password" name="password" placeholder="New Password" />
+      <button type="submit">Update Info</button>
+    </form>
+
+    <p class="footer-text">Already a member? <a href="#">Log In</a></p>
+  </div>
+</body>
+</html>
