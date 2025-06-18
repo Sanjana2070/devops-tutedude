@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 This is a sample content written to a file.
 File I/O is easy in Python!
+=======
+This is a sample content written to a file.
+File I/O is easy in Python!
+>>>>>>> af418ba (Assignment 5)

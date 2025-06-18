@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 flask
 pymongo
 dnspython
+=======
+flask
+pymongo
+dnspython
+>>>>>>> af418ba (Assignment 5)
 python-dotenv

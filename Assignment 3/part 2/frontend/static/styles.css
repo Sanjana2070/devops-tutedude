@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -72,3 +73,79 @@ h2 {
 .footer-text a:hover {
   text-decoration: underline;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fddde6, #d1c4e9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  color: #5e35b1;
+  margin-bottom: 1.5rem;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #ba68c8;
+  outline: none;
+  box-shadow: 0 0 5px #ba68c8;
+}
+
+.login-form button {
+  background-color: #ba68c8;
+  color: white;
+  padding: 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #ab47bc;
+}
+
+.footer-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-text a {
+  color: #7b1fa2;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+>>>>>>> af418ba (Assignment 5)
